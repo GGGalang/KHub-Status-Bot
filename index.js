@@ -1,7 +1,7 @@
 console.clear()
 const Discord = require('discord.js');
 const { Intents, Collection } = Discord;
-const config = require('../config.json')
+const config = require('./config.json')
 const allIntents = new Intents(32767);
 const client = new Discord.Client({ intents: allIntents });
 
